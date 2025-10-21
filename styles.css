@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+html {
+    font-family: 'Share Tech Mono', monospace;
+}
+
+h1 {
+    margin-top: 20px;
+    background-color: rgba(65, 65, 65, 0.3);
+}
+
+h2 {
+    font-style: bold;
+}
+
+dt::before {
+  content: "• ";      /* the bullet */
+  color: black;       /* change colour if needed */
+  font-weight: bold;  /* optional */
+}
+
+dd {
+    margin-bottom: 10px;
+}
+
+a {
+    font-size: 32pt;
+}
